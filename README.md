@@ -4,8 +4,6 @@ This project ACB PAO (Platform/AppOps) team
 
 ## Features
 
-- Authenticates users against an Active Directory server
-- Loads AD service account credentials from a `.env` file
-- Uses the AWS CLI configuration (`~/.aws/credentials`) to verify IAM access
-- Provides a simple REST API endpoint for login and AWS identity validation
-
+- Azure AD login via client certificate (`.pem`) using Microsoft Identity Platform (MSAL)
+- Active Directory login via LDAP using username and password (NTLM)
+- Simple REST API endpoint for triggering authentication
