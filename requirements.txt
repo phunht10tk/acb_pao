@@ -1,0 +1,4 @@
+flask
+python-dotenv
+ldap3
+boto3
